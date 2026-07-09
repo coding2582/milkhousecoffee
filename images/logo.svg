@@ -1,0 +1,40 @@
+<svg viewBox="0 0 120 160" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mason jar -->
+  <g stroke="#1a1007" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Jar lid/cap -->
+    <rect x="35" y="8" width="50" height="8" rx="1"/>
+    <path d="M 30 16 L 35 20 L 85 20 L 90 16"/>
+
+    <!-- Left handle -->
+    <path d="M 30 18 Q 18 35 20 50"/>
+    <circle cx="20" cy="20" r="3" fill="#1a1007"/>
+
+    <!-- Right handle -->
+    <path d="M 90 18 Q 102 35 100 50"/>
+    <circle cx="100" cy="20" r="3" fill="#1a1007"/>
+
+    <!-- Jar body - main rectangle -->
+    <path d="M 28 24 L 25 50 Q 23 80 28 110 L 92 110 Q 97 80 95 50 L 92 24 Z"/>
+
+    <!-- Jar bottom curve -->
+    <path d="M 28 110 Q 28 125 35 135 L 85 135 Q 92 125 92 110"/>
+
+    <!-- Jar detail lines -->
+    <line x1="35" y1="30" x2="85" y2="30"/>
+    <line x1="32" y1="50" x2="88" y2="50"/>
+  </g>
+
+  <!-- EST 2020 label -->
+  <g>
+    <rect x="38" y="26" width="44" height="14" rx="2" stroke="#1a1007" stroke-width="1.2" fill="none"/>
+    <text x="60" y="35" font-family="Arial, sans-serif" font-size="6" font-weight="bold" text-anchor="middle" fill="#1a1007">EST 2020</text>
+  </g>
+
+  <!-- Main text -->
+  <text x="60" y="72" font-family="Arial, sans-serif" font-size="7" font-weight="bold" text-anchor="middle" fill="#1a1007">THE</text>
+  <text x="60" y="82" font-family="Arial, sans-serif" font-size="7" font-weight="bold" text-anchor="middle" fill="#1a1007">MILK HOUSE</text>
+  <text x="60" y="92" font-family="Arial, sans-serif" font-size="7" font-weight="bold" text-anchor="middle" fill="#1a1007">COFFEE CO.</text>
+
+  <!-- Bottom text -->
+  <text x="60" y="124" font-family="Arial, sans-serif" font-size="5" font-weight="600" text-anchor="middle" fill="#1a1007">EVERETT, WA</text>
+</svg>

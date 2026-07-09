@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -20,9 +20,10 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap"
     rel="stylesheet" />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
 
   <style>
-    /* ─── DESIGN TOKENS ──────────────────────────────────── */
+    /* â”€â”€â”€ DESIGN TOKENS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     :root {
       --cream: #faf7f2;
       --cream2: #f3ede3;
@@ -58,7 +59,7 @@
       --transition-slow: .6s cubic-bezier(.4, 0, .2, 1);
     }
 
-    /* ─── RESET ──────────────────────────────────────────── */
+    /* â”€â”€â”€ RESET â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     *,
     *::before,
     *::after {
@@ -97,7 +98,7 @@
       font-family: inherit;
     }
 
-    /* ─── UTILITIES ──────────────────────────────────────── */
+    /* â”€â”€â”€ UTILITIES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .container {
       max-width: 1140px;
       margin: 0 auto;
@@ -204,7 +205,7 @@
       background: rgba(255, 255, 255, .24);
     }
 
-    /* ─── ANIMATIONS ────────────────────────────────────── */
+    /* â”€â”€â”€ ANIMATIONS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     @keyframes fadeUp {
       from {
         opacity: 0;
@@ -290,7 +291,7 @@
       transition-delay: .5s;
     }
 
-    /* ─── ANNOUNCEMENT BAR ──────────────────────────────── */
+    /* â”€â”€â”€ ANNOUNCEMENT BAR â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .announce-bar {
       background: var(--ink);
       color: rgba(255, 255, 255, .75);
@@ -311,7 +312,7 @@
       text-underline-offset: 3px;
     }
 
-    /* ─── NAVBAR ────────────────────────────────────────── */
+    /* â”€â”€â”€ NAVBAR â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     #site-header {
       position: fixed;
       top: 0;
@@ -479,7 +480,7 @@
       }
     }
 
-    /* ─── HERO ──────────────────────────────────────────── */
+    /* â”€â”€â”€ HERO â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     #hero {
       min-height: 100svh;
       position: relative;
@@ -630,7 +631,7 @@
       }
     }
 
-    /* ─── MARQUEE TICKER ────────────────────────────────── */
+    /* â”€â”€â”€ MARQUEE TICKER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .marquee-strip {
       background: var(--brown);
       padding: 13px 0;
@@ -664,7 +665,7 @@
       flex-shrink: 0;
     }
 
-    /* ─── CUSTOMER FAVORITES ────────────────────────────── */
+    /* â”€â”€â”€ CUSTOMER FAVORITES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     #favorites {
       background: var(--off-white);
     }
@@ -690,7 +691,7 @@
 
     .favorites-grid {
       display: grid;
-      grid-template-columns: 1.35fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       gap: 20px;
     }
 
@@ -714,7 +715,7 @@
     }
 
     .fav-img {
-      height: 220px;
+      height: 280px;
       overflow: hidden;
       position: relative;
     }
@@ -820,7 +821,7 @@
       }
     }
 
-    /* ─── ATMOSPHERE STRIP ──────────────────────────────── */
+    /* â”€â”€â”€ ATMOSPHERE STRIP â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     #atmosphere {
       position: relative;
       overflow: hidden;
@@ -834,7 +835,7 @@
       inset: 0;
       background:
         linear-gradient(90deg, rgba(26, 16, 7, .85) 0%, rgba(26, 16, 7, .4) 50%, rgba(26, 16, 7, .15) 100%),
-        url('images/cold-brew.jpg') center/cover no-repeat;
+        url('images/shop right.jpg') center/cover no-repeat;
     }
 
     .atmo-content {
@@ -887,7 +888,7 @@
       margin-bottom: 28px;
     }
 
-    /* ─── REVIEWS ───────────────────────────────────────── */
+    /* â”€â”€â”€ REVIEWS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     #reviews {
       background: var(--cream2);
     }
@@ -1044,7 +1045,7 @@
       }
     }
 
-    /* ─── MENU ──────────────────────────────────────────── */
+    /* â”€â”€â”€ MENU â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     #menu {
       background: var(--off-white);
     }
@@ -1207,7 +1208,7 @@
       }
     }
 
-    /* ─── ABOUT ─────────────────────────────────────────── */
+    /* â”€â”€â”€ ABOUT â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     #about {
       background: var(--cream2);
       overflow: hidden;
@@ -1339,7 +1340,7 @@
       }
     }
 
-    /* ─── VISIT US ──────────────────────────────────────── */
+    /* â”€â”€â”€ VISIT US â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     #visit {
       background: var(--off-white);
     }
@@ -1504,7 +1505,7 @@
       }
     }
 
-    /* ─── EMAIL SIGNUP ──────────────────────────────────── */
+    /* â”€â”€â”€ EMAIL SIGNUP â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     #signup {
       background: var(--ink);
       padding: 96px 24px;
@@ -1627,7 +1628,7 @@
       }
     }
 
-    /* ─── FOOTER ─────────────────────────────────────────── */
+    /* â”€â”€â”€ FOOTER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     footer {
       background: #0f0804;
       color: rgba(255, 255, 255, .55);
@@ -1756,7 +1757,7 @@
       }
     }
 
-    /* ─── STICKY CTA ─────────────────────────────────────── */
+    /* â”€â”€â”€ STICKY CTA â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     #sticky-cta {
       position: fixed;
       bottom: 24px;
@@ -1804,7 +1805,7 @@
       border: 1.5px solid var(--brown);
     }
 
-    /* ─── SCROLL TOP ─────────────────────────────────────── */
+    /* â”€â”€â”€ SCROLL TOP â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     #scroll-top {
       position: fixed;
       bottom: 110px;
@@ -1838,7 +1839,7 @@
       border-color: var(--brown);
     }
 
-    /* ─── MOBILE GLOBAL ─────────────────────────────────── */
+    /* â”€â”€â”€ MOBILE GLOBAL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     @media (max-width: 480px) {
       .section {
         padding: 64px 0;
@@ -1903,7 +1904,7 @@
       }
     }
 
-    /* ─── BEAN DECORATIONS ──────────────────────────────── */
+    /* â”€â”€â”€ BEAN DECORATIONS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .bean-deco {
       position: absolute;
       opacity: .38;
@@ -2018,7 +2019,7 @@
       position: relative;
     }
 
-    /* ─── SECTION HEADERS ───────────────────────────────── */
+    /* â”€â”€â”€ SECTION HEADERS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .section-header {
       margin-bottom: 52px;
     }
@@ -2153,6 +2154,11 @@
         </div>
       </div>
     </div>
+    <div style="text-align:left;padding:0 40px 12px;">
+      <a href="https://www.everettwa.gov/m/newsflash/home/detail/4136" target="_blank" rel="noopener">
+        <img src="images/award.png" alt="Award" style="max-width:90px;height:auto;" />
+      </a>
+    </div>
     <div class="hero-stats">
       <div class="hero-stat">
         <div class="hero-stat-num">4.5★</div>
@@ -2248,7 +2254,7 @@
         <!-- Cold Brew — featured -->
         <div class="fav-card featured reveal reveal-d1">
           <div class="fav-img">
-            <img src="images/cold-brew.jpg" alt="Cold Brew Coffee at Milk House Coffee Co Everett" loading="lazy" />
+            <img src="images/cold brew.jpg" alt="Cold Brew Coffee at Milk House Coffee Co Everett" loading="lazy" />
             <span class="fav-badge">#1 Pick</span>
           </div>
           <div class="fav-body">
@@ -2256,7 +2262,7 @@
             <p class="fav-desc">Slow-steeped for 18 hours for an incredibly smooth, naturally sweet cold brew. Rich,
               bold and refreshing. The drink our regulars keep coming back for.</p>
             <div class="fav-meta">
-              <span class="fav-price">From $5</span>
+              <span class="fav-price">Starting at $5</span>
               <span class="fav-stars">★★★★★</span>
             </div>
           </div>
@@ -2273,7 +2279,7 @@
             <p class="fav-desc">Velvety espresso meets rich chocolate and perfectly steamed milk. The ultimate comfort
               coffee.</p>
             <div class="fav-meta">
-              <span class="fav-price">From $5.50</span>
+              <span class="fav-price">Starting at $5.50</span>
               <span class="fav-stars">★★★★★</span>
             </div>
           </div>
@@ -2281,7 +2287,7 @@
         <!-- Scones -->
         <div class="fav-card reveal reveal-d3">
           <div class="fav-img">
-            <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&q=80&auto=format&fit=crop"
+            <img src="images/cones.jpg"
               alt="Fresh Baked Scones at Milk House Coffee Co Everett" loading="lazy" />
             <span class="fav-badge">Fresh Daily</span>
           </div>
@@ -2290,7 +2296,7 @@
             <p class="fav-desc">Buttery, flaky, and made fresh every morning. Rotating seasonal flavors that pair
               perfectly with your latte.</p>
             <div class="fav-meta">
-              <span class="fav-price">From $3.50</span>
+              <span class="fav-price">Starting at $3.50</span>
               <span class="fav-stars">★★★★½</span>
             </div>
           </div>
@@ -2469,83 +2475,112 @@
         <!-- Sidebar -->
         <div class="menu-sidebar">
           <div class="menu-img-wrap">
-            <img src="images/house-coffee.png" alt="Milk House Coffee" loading="lazy" />
+            <img src="images/matcha.jpg" alt="Milk House Coffee" loading="lazy" />
           </div>
           <nav class="menu-nav" aria-label="Menu categories">
             <button class="menu-tab active" data-tab="coffee">
-              <span class="menu-tab-icon">☕</span> Coffee
+              Coffee
             </button>
             <button class="menu-tab" data-tab="cold">
-              <span class="menu-tab-icon">🧊</span> Cold Drinks
+              Cold Drinks
             </button>
             <button class="menu-tab" data-tab="pastry">
-              <span class="menu-tab-icon">🥐</span> Pastries
+              Pastries
             </button>
             <button class="menu-tab" data-tab="breakfast">
-              <span class="menu-tab-icon">🍳</span> Breakfast
+              Breakfast
             </button>
           </nav>
         </div>
 
         <!-- Panels -->
         <div>
+          <p style="font-size:.82rem;color:var(--brown);font-weight:600;margin-bottom:12px;letter-spacing:.04em;">Prices starting at</p>
           <div class="menu-panel active" id="tab-coffee">
             <div class="menu-grid">
-              <div class="menu-item">
-                <div class="menu-item-info">
-                  <div class="menu-item-name">Drip Coffee</div>
-                  <div class="menu-item-desc">Fresh brewed, locally sourced beans</div>
-                </div>
-                <div class="menu-item-price">$3.00</div>
-              </div>
-              <div class="menu-item">
-                <div class="menu-item-info">
-                  <div class="menu-item-name">Latte</div>
-                  <div class="menu-item-desc">Espresso + steamed whole milk</div>
-                </div>
-                <div class="menu-item-price">$5.00</div>
-              </div>
-              <div class="menu-item">
-                <div class="menu-item-info">
-                  <div class="menu-item-name">House Mocha</div>
-                  <div class="menu-item-desc">Espresso, rich chocolate, steamed milk</div>
-                </div>
-                <div class="menu-item-price">$5.50</div>
-              </div>
-              <div class="menu-item">
-                <div class="menu-item-info">
-                  <div class="menu-item-name">Cappuccino</div>
-                  <div class="menu-item-desc">Bold espresso with thick microfoam</div>
-                </div>
-                <div class="menu-item-price">$4.75</div>
-              </div>
               <div class="menu-item">
                 <div class="menu-item-info">
                   <div class="menu-item-name">Americano</div>
                   <div class="menu-item-desc">Double espresso over hot water</div>
                 </div>
-                <div class="menu-item-price">$4.00</div>
+                <div class="menu-item-price">$3.41</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-info">
-                  <div class="menu-item-name">Seasonal Latte</div>
-                  <div class="menu-item-desc">Ask us about today's special</div>
+                  <div class="menu-item-name">Doppio</div>
+                  <div class="menu-item-desc">Double shot of espresso</div>
                 </div>
-                <div class="menu-item-price">$5.75</div>
+                <div class="menu-item-price">$3.00</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-info">
                   <div class="menu-item-name">Cortado</div>
                   <div class="menu-item-desc">Equal parts espresso and steamed milk</div>
                 </div>
-                <div class="menu-item-price">$4.50</div>
+                <div class="menu-item-price">$4.46</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-info">
-                  <div class="menu-item-name">Vanilla Latte</div>
-                  <div class="menu-item-desc">Espresso, vanilla, steamed milk</div>
+                  <div class="menu-item-name">Cappuccino</div>
+                  <div class="menu-item-desc">Bold espresso with thick microfoam</div>
                 </div>
                 <div class="menu-item-price">$5.25</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Latte</div>
+                  <div class="menu-item-desc">Espresso and steamed whole milk</div>
+                </div>
+                <div class="menu-item-price">$5.25</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Mocha</div>
+                  <div class="menu-item-desc">Reg House or Mexican</div>
+                </div>
+                <div class="menu-item-price">$5.19</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Caramel Macchiato</div>
+                  <div class="menu-item-desc">Espresso, caramel, steamed milk</div>
+                </div>
+                <div class="menu-item-price">$6.10</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">London Fog Latte</div>
+                  <div class="menu-item-desc">Earl grey, vanilla, steamed milk</div>
+                </div>
+                <div class="menu-item-price">$6.65</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Chai Tea</div>
+                  <div class="menu-item-desc">Spiced chai with steamed milk</div>
+                </div>
+                <div class="menu-item-price">$4.98</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Matcha</div>
+                  <div class="menu-item-desc">Ceremonial grade matcha latte</div>
+                </div>
+                <div class="menu-item-price">$6.30</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Hot Chocolate</div>
+                  <div class="menu-item-desc">Rich and creamy chocolate</div>
+                </div>
+                <div class="menu-item-price">$3.36</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Tea</div>
+                  <div class="menu-item-desc">Hot brewed tea</div>
+                </div>
+                <div class="menu-item-price">$3.83</div>
               </div>
             </div>
           </div>
@@ -2553,45 +2588,94 @@
             <div class="menu-grid">
               <div class="menu-item">
                 <div class="menu-item-info">
-                  <div class="menu-item-name">Signature Cold Brew</div>
+                  <div class="menu-item-name">Cold Brew</div>
                   <div class="menu-item-desc">18-hour slow steep, smooth &amp; bold</div>
                 </div>
-                <div class="menu-item-price">$5.00</div>
-              </div>
-              <div class="menu-item">
-                <div class="menu-item-info">
-                  <div class="menu-item-name">Iced Latte</div>
-                  <div class="menu-item-desc">Espresso over ice with cold milk</div>
-                </div>
-                <div class="menu-item-price">$5.00</div>
-              </div>
-              <div class="menu-item">
-                <div class="menu-item-info">
-                  <div class="menu-item-name">Iced Mocha</div>
-                  <div class="menu-item-desc">Cold espresso, chocolate, milk, ice</div>
-                </div>
-                <div class="menu-item-price">$5.50</div>
-              </div>
-              <div class="menu-item">
-                <div class="menu-item-info">
-                  <div class="menu-item-name">Cold Brew Float</div>
-                  <div class="menu-item-desc">Cold brew topped with vanilla cream</div>
-                </div>
-                <div class="menu-item-price">$6.00</div>
+                <div class="menu-item-price">$5.09</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-info">
                   <div class="menu-item-name">Iced Americano</div>
                   <div class="menu-item-desc">Double espresso, ice, water</div>
                 </div>
-                <div class="menu-item-price">$4.25</div>
+                <div class="menu-item-price">$3.41</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-info">
-                  <div class="menu-item-name">Iced Vanilla Latte</div>
-                  <div class="menu-item-desc">Espresso, vanilla syrup, ice, milk</div>
+                  <div class="menu-item-name">Iced Doppio</div>
+                  <div class="menu-item-desc">Double shot of espresso over ice</div>
                 </div>
-                <div class="menu-item-price">$5.50</div>
+                <div class="menu-item-price">$2.50</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Iced Mocha</div>
+                  <div class="menu-item-desc">Cold espresso, chocolate, milk, ice</div>
+                </div>
+                <div class="menu-item-price">$5.80</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Iced Caramel Macchiato</div>
+                  <div class="menu-item-desc">Espresso, caramel, milk, ice</div>
+                </div>
+                <div class="menu-item-price">$6.00</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Iced Chai</div>
+                  <div class="menu-item-desc">Spiced chai over ice with milk</div>
+                </div>
+                <div class="menu-item-price">$5.60</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Iced London Fog Latte</div>
+                  <div class="menu-item-desc">Earl grey, vanilla, milk, ice</div>
+                </div>
+                <div class="menu-item-price">$6.56</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Iced Tea</div>
+                  <div class="menu-item-desc">Chilled brewed tea over ice</div>
+                </div>
+                <div class="menu-item-price">$4.46</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Frappe</div>
+                  <div class="menu-item-desc">Blended iced coffee drink</div>
+                </div>
+                <div class="menu-item-price">$5.93</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Milkshake</div>
+                  <div class="menu-item-desc">Thick and creamy blended shake</div>
+                </div>
+                <div class="menu-item-price">$6.03</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Italian Soda</div>
+                  <div class="menu-item-desc">Sparkling water with flavored syrup</div>
+                </div>
+                <div class="menu-item-price">$4.98</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Lemonade</div>
+                  <div class="menu-item-desc">Fresh squeezed style lemonade</div>
+                </div>
+                <div class="menu-item-price">$4.30</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Smoothie</div>
+                  <div class="menu-item-desc">Blended fruit smoothie</div>
+                </div>
+                <div class="menu-item-price">$5.55</div>
               </div>
             </div>
           </div>
@@ -2599,45 +2683,66 @@
             <div class="menu-grid">
               <div class="menu-item">
                 <div class="menu-item-info">
-                  <div class="menu-item-name">Fresh-Baked Scone</div>
-                  <div class="menu-item-desc">Rotating seasonal flavors, baked daily</div>
+                  <div class="menu-item-name">Blackberry Scone</div>
+                  <div class="menu-item-desc">Baked fresh daily</div>
                 </div>
-                <div class="menu-item-price">$3.50</div>
+                <div class="menu-item-price">$6.00</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-info">
-                  <div class="menu-item-name">Butter Croissant</div>
-                  <div class="menu-item-desc">Flaky, golden, classic French style</div>
+                  <div class="menu-item-name">Blueberry Scone</div>
+                  <div class="menu-item-desc">Baked fresh daily</div>
                 </div>
-                <div class="menu-item-price">$3.25</div>
+                <div class="menu-item-price">$6.00</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-info">
-                  <div class="menu-item-name">Blueberry Muffin</div>
-                  <div class="menu-item-desc">Loaded with fresh blueberries</div>
+                  <div class="menu-item-name">Savory Scone</div>
+                  <div class="menu-item-desc">Baked fresh daily</div>
                 </div>
-                <div class="menu-item-price">$3.00</div>
+                <div class="menu-item-price">$6.00</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-info">
-                  <div class="menu-item-name">Cinnamon Roll</div>
-                  <div class="menu-item-desc">Warm, soft, cream cheese frosted</div>
+                  <div class="menu-item-name">Muffin of the Day</div>
+                  <div class="menu-item-desc">Ask your barista for today's flavor</div>
                 </div>
-                <div class="menu-item-price">$4.00</div>
+                <div class="menu-item-price">$7.25</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-info">
-                  <div class="menu-item-name">Banana Bread</div>
-                  <div class="menu-item-desc">House recipe, moist and sweet</div>
+                  <div class="menu-item-name">GF Muffin</div>
+                  <div class="menu-item-desc">Gluten-free muffin</div>
                 </div>
-                <div class="menu-item-price">$3.50</div>
+                <div class="menu-item-price">$7.25</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-info">
-                  <div class="menu-item-name">Seasonal Pastry</div>
-                  <div class="menu-item-desc">Ask your barista what's fresh today</div>
+                  <div class="menu-item-name">Lemon Poppy Seed Cookie</div>
+                  <div class="menu-item-desc">House-baked cookie</div>
                 </div>
-                <div class="menu-item-price">$4.00</div>
+                <div class="menu-item-price">$5.77</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Molasses Cookie</div>
+                  <div class="menu-item-desc">House-baked cookie</div>
+                </div>
+                <div class="menu-item-price">$5.77</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">PB Chocolate Chip Cookie</div>
+                  <div class="menu-item-desc">Peanut butter chocolate chip</div>
+                </div>
+                <div class="menu-item-price">$5.77</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Sugar Cookie</div>
+                  <div class="menu-item-desc">House-baked cookie</div>
+                </div>
+                <div class="menu-item-price">$5.77</div>
               </div>
             </div>
           </div>
@@ -2645,52 +2750,45 @@
             <div class="menu-grid">
               <div class="menu-item">
                 <div class="menu-item-info">
-                  <div class="menu-item-name">Breakfast Sandwich</div>
-                  <div class="menu-item-desc">Egg, cheese &amp; your choice of protein</div>
+                  <div class="menu-item-name">Breakfast Burrito with Sausage</div>
+                  <div class="menu-item-desc">Roasted potatoes, scrambled eggs, sausage and cheese</div>
                 </div>
-                <div class="menu-item-price">$7.50</div>
+                <div class="menu-item-price">$11.55</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-info">
-                  <div class="menu-item-name">Avocado Toast</div>
-                  <div class="menu-item-desc">Sourdough, smashed avo, sea salt, lemon</div>
+                  <div class="menu-item-name">Breakfast Burrito Veggie</div>
+                  <div class="menu-item-desc">Roasted potatoes, scrambled eggs, cheese and roasted vegetables</div>
                 </div>
-                <div class="menu-item-price">$8.00</div>
+                <div class="menu-item-price">$11.28</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-info">
-                  <div class="menu-item-name">Granola Bowl</div>
-                  <div class="menu-item-desc">House granola, Greek yogurt, fresh fruit</div>
+                  <div class="menu-item-name">Breakfast Sandwich with Sausage</div>
+                  <div class="menu-item-desc">Whidbey Island 3 cheese bagel, egg, cheese and sausage</div>
                 </div>
-                <div class="menu-item-price">$7.00</div>
+                <div class="menu-item-price">$11.81</div>
               </div>
               <div class="menu-item">
                 <div class="menu-item-info">
-                  <div class="menu-item-name">Bagel &amp; Cream Cheese</div>
-                  <div class="menu-item-desc">Fresh-baked daily, your choice of spread</div>
+                  <div class="menu-item-name">Breakfast Sandwich Plain</div>
+                  <div class="menu-item-desc">Whidbey Island 3 cheese bagel, egg and cheese</div>
+                </div>
+                <div class="menu-item-price">$11.55</div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-info">
+                  <div class="menu-item-name">Bagels</div>
+                  <div class="menu-item-desc">Whidbey Island Bagel Factory — multiple flavors available</div>
                 </div>
                 <div class="menu-item-price">$5.00</div>
-              </div>
-              <div class="menu-item">
-                <div class="menu-item-info">
-                  <div class="menu-item-name">Quiche of the Day</div>
-                  <div class="menu-item-desc">Freshly made, ask for today's flavors</div>
-                </div>
-                <div class="menu-item-price">$6.50</div>
-              </div>
-              <div class="menu-item">
-                <div class="menu-item-info">
-                  <div class="menu-item-name">Overnight Oats</div>
-                  <div class="menu-item-desc">Chia, almond milk, fresh toppings</div>
-                </div>
-                <div class="menu-item-price">$6.00</div>
               </div>
             </div>
           </div>
 
           <div class="menu-cta">
             <p>Prices may vary · Dairy-free and vegan options available · Ask your barista</p>
-            <a href="tel:+14252639860" class="btn btn-primary">📞 Call to Order Ahead</a>
+            <a href="tel:+14252639860" class="btn btn-primary">Call to Order Ahead</a>
           </div>
         </div>
       </div>
@@ -2780,9 +2878,9 @@
         </div>
         <div class="about-img-col reveal reveal-d2">
           <div class="about-img-wrap">
-            <img src="images/about-us-owners.png"
-              alt="Michael and Heather, owners of The Milk House Coffee Co Everett WA" loading="lazy"
-              style="object-position: 85% center;" />
+            <img src="images/outside shot.jpg"
+              alt="The Milk House Coffee Co. storefront exterior in Everett, WA" loading="lazy"
+              style="object-position: center center;" />
           </div>
           <div class="about-badge">
             <div class="about-badge-num" style="font-size:1.1rem;line-height:1.3;">Serving Our<br>Community</div>
@@ -2843,6 +2941,11 @@
                 PM</span></div>
             <div class="hours-row"><span class="hours-day">Sunday</span><span class="hours-time">8:00 AM – 4:00
                 PM</span></div>
+            <div style="margin-bottom:14px;">
+              <a href="https://www.everettwa.gov/m/newsflash/home/detail/4136" target="_blank" rel="noopener">
+                <img src="images/award.png" alt="Award" style="max-width:120px;height:auto;display:block;" />
+              </a>
+            </div>
             <div class="amenities">
               <span class="amenity">Drive-Thru</span>
               <span class="amenity">Free Parking</span>
@@ -2909,7 +3012,7 @@
         <a href="tel:+14252639860" class="btn btn-ghost" style="font-size:.98rem;padding:15px 32px;">Call Us</a>
       </div>
       <div class="reveal" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:32px;">
-        <a href="https://www.instagram.com/milkhousecoffeeco" target="_blank" rel="noopener"
+        <a href="https://www.instagram.com/themilkhousecoffeeco/" target="_blank" rel="noopener"
           style="display:inline-flex;align-items:center;gap:9px;padding:11px 22px;border-radius:50px;border:1.5px solid rgba(255,255,255,.3);background:rgba(255,255,255,.08);color:#fff;font-size:.88rem;font-weight:600;text-decoration:none;backdrop-filter:blur(8px);">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
             <path
@@ -2917,21 +3020,13 @@
           </svg>
           Instagram
         </a>
-        <a href="https://www.facebook.com/milkhousecoffeeco" target="_blank" rel="noopener"
+        <a href="https://www.facebook.com/themilkhousecoffeeco/" target="_blank" rel="noopener"
           style="display:inline-flex;align-items:center;gap:9px;padding:11px 22px;border-radius:50px;border:1.5px solid rgba(255,255,255,.3);background:rgba(255,255,255,.08);color:#fff;font-size:.88rem;font-weight:600;text-decoration:none;backdrop-filter:blur(8px);">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
             <path
               d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
           </svg>
           Facebook
-        </a>
-        <a href="https://www.tiktok.com/@milkhousecoffeeco" target="_blank" rel="noopener"
-          style="display:inline-flex;align-items:center;gap:9px;padding:11px 22px;border-radius:50px;border:1.5px solid rgba(255,255,255,.3);background:rgba(255,255,255,.08);color:#fff;font-size:.88rem;font-weight:600;text-decoration:none;backdrop-filter:blur(8px);">
-          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
-            <path
-              d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.32 6.32 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.19 8.19 0 004.79 1.53V6.75a4.85 4.85 0 01-1.02-.06z" />
-          </svg>
-          TikTok
         </a>
       </div>
       <div class="signup-perks reveal">
@@ -2951,20 +3046,15 @@
         <p class="footer-desc">Everett's favorite local coffee shop. Handcrafted drinks, fresh-baked pastries, and a
           community you'll love. Come as you are.</p>
         <div class="footer-social">
-          <a href="https://www.instagram.com/milkhousecoffeeco" target="_blank" rel="noopener" class="social-btn"
+          <a href="https://www.instagram.com/themilkhousecoffeeco/" target="_blank" rel="noopener" class="social-btn"
             aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
               <path
                 d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
             </svg></a>
-          <a href="https://www.facebook.com/milkhousecoffeeco" target="_blank" rel="noopener" class="social-btn"
+          <a href="https://www.facebook.com/themilkhousecoffeeco/" target="_blank" rel="noopener" class="social-btn"
             aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
               <path
                 d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-            </svg></a>
-          <a href="https://www.tiktok.com/@milkhousecoffeeco" target="_blank" rel="noopener" class="social-btn"
-            aria-label="TikTok"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-              <path
-                d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.32 6.32 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.19 8.19 0 004.79 1.53V6.75a4.85 4.85 0 01-1.02-.06z" />
             </svg></a>
         </div>
       </div>
@@ -2992,7 +3082,7 @@
     </div>
     <div class="footer-bottom">
       <span>© 2025 The Milk House Coffee Co. · Everett, WA · All rights reserved.</span>
-      <span>Made with love in Everett · <a href="https://milkhousecoffee.com">milkhousecoffee.com</a></span>
+      <span>Made with love by <a href="https://north-sound-studio.vercel.app/" target="_blank" rel="noopener">North Sound Studio</a></span>
     </div>
   </footer>
 
@@ -3003,10 +3093,10 @@
   </div>
 
   <!-- SCROLL TO TOP -->
-  <button id="scroll-top" aria-label="Scroll to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+  <button id="scroll-top" aria-label="Scroll to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">←</button>
 
   <script>
-    // ─── NAV SCROLL ───────────────────────────────────────
+    // â”€â”€â”€ NAV SCROLL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     const navbar = document.getElementById('navbar');
     const stickyCta = document.getElementById('sticky-cta');
     const scrollTop = document.getElementById('scroll-top');
@@ -3018,7 +3108,7 @@
       scrollTop.classList.toggle('show', y > 600);
     }, { passive: true });
 
-    // ─── MOBILE MENU ──────────────────────────────────────
+    // â”€â”€â”€ MOBILE MENU â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     const hamburger = document.getElementById('hamburger');
     const mobileMenu = document.getElementById('mobileMenu');
     const mobileClose = document.getElementById('mobileClose');
@@ -3029,7 +3119,7 @@
       l.addEventListener('click', () => mobileMenu.classList.remove('open'));
     });
 
-    // ─── REVEAL ON SCROLL ─────────────────────────────────
+    // â”€â”€â”€ REVEAL ON SCROLL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     const revealEls = document.querySelectorAll('.reveal');
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(e => {
@@ -3041,7 +3131,7 @@
     }, { threshold: 0.1 });
     revealEls.forEach(el => observer.observe(el));
 
-    // ─── MENU TABS ────────────────────────────────────────
+    // â”€â”€â”€ MENU TABS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     document.querySelectorAll('.menu-tab').forEach(tab => {
       tab.addEventListener('click', () => {
         document.querySelectorAll('.menu-tab').forEach(t => t.classList.remove('active'));
@@ -3051,7 +3141,7 @@
       });
     });
 
-    // ─── EMAIL SIGNUP ─────────────────────────────────────
+    // â”€â”€â”€ EMAIL SIGNUP â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     function handleSignup(e) {
       e.preventDefault();
       const btn = e.target.querySelector('button');
@@ -3067,7 +3157,7 @@
       }, 4000);
     }
 
-    // ─── DYNAMIC HOURS + OPEN/CLOSED STATUS ───────────────
+    // â”€â”€â”€ DYNAMIC HOURS + OPEN/CLOSED STATUS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     (function () {
       const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
       const now = new Date();
@@ -3094,7 +3184,7 @@
         return 'Come back ' + tmrName + ' at ' + tmrTime + '!';
       }
 
-      // ── Update hero badge ──
+      // â”€â”€ Update hero badge â”€â”€
       const heroDot = document.getElementById('hero-badge-dot');
       const heroText = document.getElementById('hero-badge-text');
       if (heroDot && heroText) {
@@ -3102,7 +3192,7 @@
         heroText.textContent = (isOpen ? 'Open' : 'Closed') + ' · Everett, WA';
       }
 
-      // ── Update hours-card badge ──
+      // â”€â”€ Update hours-card badge â”€â”€
       const badge = document.getElementById('status-badge');
       if (badge) {
         if (isOpen) {
@@ -3114,7 +3204,7 @@
         }
       }
 
-      // ── Update announce bar ──
+      // â”€â”€ Update announce bar â”€â”€
       const bar = document.getElementById('announce-bar');
       if (bar) {
         if (isOpen) {
@@ -3124,7 +3214,7 @@
         }
       }
 
-      // ── Highlight today's row ──
+      // â”€â”€ Highlight today's row â”€â”€
       const today = days[day];
       document.querySelectorAll('.hours-row').forEach(row => {
         const dayEl = row.querySelector('.hours-day');
@@ -3135,7 +3225,7 @@
       });
     })();
 
-    // ─── SMOOTH ANCHOR OFFSET ─────────────────────────────
+    // â”€â”€â”€ SMOOTH ANCHOR OFFSET â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     document.querySelectorAll('a[href^="#"]').forEach(a => {
       a.addEventListener('click', e => {
         const target = document.querySelector(a.getAttribute('href'));

@@ -71,6 +71,9 @@
     html {
       scroll-behavior: smooth;
       font-size: 16px;
+      background: var(--cream);
+      overflow-x: hidden;
+      width: 100%;
     }
 
     body {
@@ -79,6 +82,7 @@
       color: var(--grey800);
       line-height: 1.6;
       overflow-x: hidden;
+      width: 100%;
     }
 
     img {
@@ -495,7 +499,7 @@
       inset: 0;
       background:
         linear-gradient(160deg, rgba(20, 10, 4, .82) 0%, rgba(80, 48, 24, .4) 50%, rgba(15, 8, 2, .75) 100%),
-        url('images/hero.jpg') center/cover no-repeat;
+        url('images/outside shot.jpg') center 40%/cover no-repeat;
       transform-origin: center;
     }
 
@@ -504,6 +508,21 @@
       position: absolute;
       inset: 0;
       background: radial-gradient(ellipse at 60% 40%, rgba(201, 146, 42, .08) 0%, transparent 65%);
+    }
+
+    /* Desktop-only: darken behind the hero text so it reads clearly over a busy photo */
+    @media (min-width: 801px) {
+      .hero-bg {
+        background:
+          linear-gradient(160deg, rgba(15, 8, 3, .88) 0%, rgba(20, 12, 5, .68) 50%, rgba(10, 5, 2, .88) 100%),
+          url('images/outside shot.jpg') center 40%/cover no-repeat;
+      }
+
+      .hero-badge,
+      .hero-title,
+      .hero-sub {
+        text-shadow: 0 3px 16px rgba(0, 0, 0, .55), 0 1px 4px rgba(0, 0, 0, .85);
+      }
     }
 
     .hero-main {
@@ -1841,6 +1860,11 @@
 
     /* â”€â”€â”€ MOBILE GLOBAL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     @media (max-width: 480px) {
+      .hero-main {
+        align-items: flex-end;
+        padding-bottom: 90px;
+      }
+
       .section {
         padding: 64px 0;
       }
@@ -2878,7 +2902,7 @@
         </div>
         <div class="about-img-col reveal reveal-d2">
           <div class="about-img-wrap">
-            <img src="images/outside shot.jpg"
+            <img src="images/hero.jpg"
               alt="The Milk House Coffee Co. storefront exterior in Everett, WA" loading="lazy"
               style="object-position: center center;" />
           </div>
